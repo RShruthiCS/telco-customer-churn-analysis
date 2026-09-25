@@ -1,0 +1,23 @@
+CREATE TABLE telco_customers (
+    customerid        TEXT,
+    gender            TEXT,
+    seniorcitizen     INTEGER,
+    partner           TEXT,
+    dependents        TEXT,
+    tenure            INTEGER,
+    phoneservice      TEXT,
+    multiplelines     TEXT,
+    internetservice   TEXT,
+    onlinesecurity    TEXT,
+    onlinebackup      TEXT,
+    deviceprotection  TEXT,
+    techsupport       TEXT,
+    streamingtv       TEXT,
+    streamingmovies   TEXT,
+    contract          TEXT,
+    paperlessbilling  TEXT,
+    paymentmethod     TEXT,
+    monthlycharges    NUMERIC(8,2),
+    totalcharges      TEXT,
+    churn             TEXT
+);
